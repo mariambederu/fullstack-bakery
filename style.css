@@ -16,29 +16,6 @@ body {
 header {
   
   background-color: black;
-    
-}
-
-main {
-  max-width: 1200px;
-  padding: 0 10px;  
-  align-items: center;
-  flex-grow: 1;
-
-}
-
-.body-content {
-  display: flex;
-  justify-content: space-between;
-  min-height: 80vh;
-  max-width: 1200px;
-  padding: 0 10px;  
-  margin: 0 auto;
-}
-
-.sidebar {
-   width: 30%;
-   padding: 30px;
 }
 
 .header-content {
@@ -50,8 +27,6 @@ main {
     padding: 0 10px;  
     margin: 0 auto;
 }
-
-
 
 .brand {
     font-family: "Inter", sans-serif;
@@ -99,7 +74,27 @@ main {
     color: white;
   }
 
+  main {
+  max-width: 1200px;
+  padding: 0 10px;  
+  align-items: center;
+  flex-grow: 1;
 
+}
+
+.body-content {
+  display: flex;
+  justify-content: space-between;
+  min-height: 80vh;
+  max-width: 1200px;
+  padding: 0 10px;  
+  margin: 0 auto;
+}
+
+.sidebar {
+   width: 30%;
+   padding: 30px;
+}
 
 .menu-button {
     background: rgb(0, 68, 255);
@@ -109,7 +104,6 @@ main {
     width: 100%;
     color:aliceblue;
 }
-
 
 .page-title {
     ffont-family: "Inter", sans-serif;
