@@ -2,29 +2,55 @@
 <html lang="en">
   <head>
     <title>Fullstack Bakery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+  
     <header>
-      <p class="brand">Fullstack Bakery</p>
-      <nav>
-        <a href="#">Menus</a>
-        <a href="#">Catering</a>
-        <a href="#">Recipes</a>
-        <a href="#">About Us</a>
+      <div class="header-content">
+      <a class="brand" href="#">Fullstack Bakery</a>
+
+      <nav class="nav">
+        <ul class="nav-list">
+         <li class="nav-item"> 
+          <a href="#" class="nav-link">Home</a>
+         </li>
+         <li class="nav-item"> 
+          <a href="#" class="nav-link">Menus</a>
+        </li>
+         <li class="nav-item"> 
+          <a href="#" class="nav-link">Catering</a>
+        </li>
+         <li class="nav-item"> 
+          <a href="#" class="nav-link">Recipes</a>
+        </li>
+         <li class="nav-item"> 
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+      </ul>
       </nav>
+      </div>
     </header>
+  
+  
     <main>
-      <aside>
-        <ul>
-          <li>Bread</li>
-          <li>Cakes</li>
-          <li>Cookies</li>
-          <li>Muffins</li>
-          <li>Pies</li>
+      <div class="body-content">
+    <aside class="sidebar">
+        <ul class="menu-list">
+          <li class="menu-button">Bread</li>
+          <li class="menu-button">Cakes</li>
+          <li class="menu-button">Cookies</li>
+          <li class="menu-button">Muffins</li>
+          <li class="menu-button">Pies</li>
         </ul>
       </aside>
+   
+
       <article>
-        <h1>Best bakery in the business!</h1>
+        <h1 class="page-title">Best bakery in the business!</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
           voluptates eligendi quam atque accusamus, placeat itaque harum ut sit
@@ -50,7 +76,9 @@
           hic est!
         </p>
       </article>
+      </div>
+
     </main>
     <footer>Follow us on social media!</footer>
-  </body>
+</body>
 </html>

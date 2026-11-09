@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    /*inter-<uniquifier>*/
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10;
+}
+
+header {
+  
+  background-color: black;
+    
+}
+
+main {
+  max-width: 1200px;
+  padding: 0 10px;  
+  align-items: center;
+  flex-grow: 1;
+
+}
+
+.body-content {
+  display: flex;
+  justify-content: space-between;
+  min-height: 80vh;
+  max-width: 1200px;
+  padding: 0 10px;  
+  margin: 0 auto;
+}
+
+.sidebar {
+   width: 30%;
+   padding: 30px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    max-width: 1200px;
+    padding: 0 10px;  
+    margin: 0 auto;
+}
+
+
+
+.brand {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    text-decoration: none;
+    text-underline-offset: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px 10px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-underline-offset: none;
+    font-size: .8rem;
+    padding: 10px 10px;
+  }
+
+  .nav-link {
+    ffont-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-underline-offset: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: 10px 10px;
+    color: white;
+  }
+
+
+
+.menu-button {
+    background: rgb(0, 68, 255);
+    border-color: rgb(0, 68, 255);
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    color:aliceblue;
+}
+
+
+.page-title {
+    ffont-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: large;
+    margin: 20Px;
+}
+
+.testimonial {
+    ffont-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+    background-color: #e8f0f7;
+    color:black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    ffont-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    color:black;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 10px;
+    witdth: 100%;
+}
+
